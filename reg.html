@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>demo</title>
+    <meta name="description" content="">
+    <meta name="author" content="minh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="noindex,noarchive" />
+    <meta charset="utf-8">
+    <!--jq core-->
+    <script src="jquery-3.0.0/jquery-3.0.0.min.js"></script>
+    <!--login core-->
+    <link rel="stylesheet" href="./css/signUpGeneral.css">
+    <script src="./js/formValidation.min.js"></script>
+    <script src="./js/regValidation.js"></script>
+
+</head>
+
+<body>
+    <div class="loginBox">
+        <h2 class="logo"><a href="#"><img src="./img/logo.png" alt="demo" /></a></h2>
+        <div class="loginBoxInner">
+            <form id="login-form" class="" method="post">
+                <div class="form-input">
+                    <input type='text' name='mobile' placeholder="手机号" value="">
+                    <b class="form-warn-font">*手机号码格式不正确</b>
+                </div>
+                <div class="form-input">
+                    <input type='password' name='password' placeholder="密码" value="">
+                    <b class="form-warn-font">*密码不能为空</b>
+                </div>
+                <div class="form-input">
+                    <input type='password' name='passwordRepeat' placeholder="确认密码" value="">
+                    <b class="form-warn-font">*密码不一致</b>
+                </div>
+
+                <div class="verifyCode">
+                    <div class="input">
+                        <input type="text" placeholder="图片验证码" name="picVerifyCode">
+                    </div>
+                    <div class="verifyCodeImg">
+                        <img src="./img/text.jpg" alt="">
+                    </div>
+                </div>
+                <div class="verifyCode">
+                    <div class="input">
+                        <input type="text" placeholder="短信验证码" name="picVerifyCode">
+                    </div>
+                    <div class="verifyCodeBut">
+                        <a href="#">免费获取短信验证码</a>
+                    </div>
+                </div>
+
+                <div class="form-input">
+                    <label class="checkBox">
+                        <input type="checkbox" name="remenberme">我已接受并阅读<a href="#">《用户协议》</a>
+                    </label>
+                    <b class="form-warn-font">*请同意协议</b>
+                </div>
+                <div class="form-but">
+                    <button class="but-style" type='submit' name='submit'>注册</button>
+                </div>
+
+            </form>
+        </div>
+        <div class="loginExta">
+            已经有账号？
+            <a href="./login.html" class="but-style">马上登陆</a>
+        </div>
+    </div>
+
+    <div class="loginFoot">
+        <div class="line1"></div>为了获得更好的使用体验，建议使用谷歌浏览器</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>demo</title>
+    <meta name="description" content="">
+    <meta name="author" content="minh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="noindex,noarchive" />
+    <meta charset="utf-8">
+    <!--jq core-->
+    <script src="jquery-3.0.0/jquery-3.0.0.min.js"></script>
+    <!--login core-->
+    <link rel="stylesheet" href="./css/signUpGeneral.css">
+    <script src="./js/formValidation.min.js"></script>
+    <script src="./js/loginValidation.js"></script>
+    
+</head>
+
+<body>
+    <div class="loginBox">
+        <h2 class="logo"><a href="#"><img src="./img/logo.png" alt="demo" /></a></h2>
+        <div class="loginBoxInner">
+            <form id="login-form" class="" method="post">
+                <div class="form-input">
+                    <input type="text" name='emailOrMobile' placeholder="手机或者邮箱" value="">
+                    <b class="form-warn-font">*账号格式错误</b>
+                </div>
+                <div class="form-input">
+                    <input type='password' name='password' placeholder="密码" value="">
+                    <b class="form-warn-font">*密码不能为空</b>
+                </div>
+                <div class="form-input">
+                    <label class="checkBox">
+                        <input type="checkbox" name="remenberme" value="1">记住我的账号
+                    </label>
+                </div>
+                <div class="form-but">
+                    <button class="but-style" type='submit' name='submit'>登录</button>
+                </div>
+
+            </form>
+        </div>
+        <div class="loginExta">
+            <a href="./findback.html">忘记密码？</a> -还没有账号？
+            <a href="./reg.html" class="but-style">免费注册</a>
+        </div>
+    </div>
+
+    <div class="loginFoot">
+        <div class="line1"></div>为了获得更好的使用体验，建议使用谷歌浏览器</div>
+    </div>
+</body>
+
+</html>
