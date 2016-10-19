@@ -1,0 +1,238 @@
+/*
+.loginBox{background-color: aliceblue};
+.logo{background-color: antiquewhite};
+.loginBoxInner{background-color: aqua};
+.loginFoot{background-color: aquamarine};
+*/
+
+html {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+body {
+    font: 400 14px/22px Arial, "Microsoft YaHei";
+    background-color: #e3e2e2;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    line-height: 1.4;
+}
+div {
+    display: block;
+}
+input {
+    position: relative;
+    display: block;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: #859eba;
+    cursor: pointer;
+}
+.loginBox {
+    width: auto;
+    max-width: 400px;
+    margin: 44px auto 0px auto;
+    padding: 1px;
+    font-size: 14px;
+}
+.loginBox .logo {
+    margin: 0px 20px;
+    padding: 0px;
+    text-align: center;
+}
+.loginBox h2 {
+    font-size: 22px;
+    line-height: normal;
+}
+.loginBox .logo img {
+    width: 100%;
+    max-width: 280px;
+    vertical-align: middle;
+    border: 0px;
+}
+.loginBoxInner {
+    margin: 20px 0px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    min-height: 100px;
+}
+.form-input {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+    position: relative;
+    padding: 0;
+    box-sizing: content-box;
+    color: #666666;
+    border-color: #ff0000;
+}
+.form-input input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 8px 10px;
+    border-width: 1px;
+    border-style: solid;
+    color: #404040;
+    padding-right: 45px;
+    border-color: #e3e3e3;
+    font-size: 14px;
+}
+.form-but {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.but-style {
+    background-color: #00bbc0;
+    border-color: #00a9ae;
+    padding: 8px 40px;
+    font-size: 20px;
+    min-width: 160px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.loginExta {
+    text-align: center;
+    font-weight: 200;
+}
+.loginExta .but-style {
+    border-color: #00bbc0;
+    background-color: #fafafa;
+    color: #00babf;
+    vertical-align: baseline;
+    font-size: 14px;
+    width: 10px;
+    min-width: 70px;
+    display: inline-block;
+    padding: 5px 12px;
+}
+.loginFoot {
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 100;
+    color: #b9b9b9;
+    margin: 20px 0;
+    line-height: 2;
+}
+.checkBox {
+    font-size: 14px;
+    color: #666666;
+    cursor: pointer;
+    font-weight: 100;
+    display: block;
+    line-height: 25px;
+    
+}
+.checkBox input {
+    width: 18px;
+    height: 18px;
+    float: left;
+}
+.verifyCode {
+    color: #404040;
+    width: 100%;
+    height: 40px;
+    padding-right: 45px;
+    
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+    position: relative;
+    padding: 0;
+    box-sizing: content-box;
+    border-color: #ff0000;
+}
+.input input {
+    box-sizing: border-box;
+    width: 50%;
+    height: 40px;
+    padding: 8px 10px;
+    border-width: 1px;
+    border-style: solid;
+    color: #404040;
+    padding-right: 45px;
+    border-color: #e3e3e3;
+    font-size: 14px;
+    display: block;
+    float: left;
+    clear: both;
+}
+.verifyCodeImg {
+    float: left;
+    height: 40px;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.verifyCodeImg img{
+    width: 100%;
+    display: block;
+    height: 40px;
+    cursor: pointer;
+}
+
+.verifyCodeBut {
+    float: left;
+    height: 40px;
+    width: 45%;
+    margin-left: 5%;
+    display:inline-block;
+    background-color: #00babf;
+    overflow: hidden;
+    
+}
+.verifyCodeBut a {
+    margin: 1px;
+    color: #e3feff;
+    font-size: 14px;
+    font-weight: 200;
+    display: inline-block;
+    width: 100%;
+    min-width: 126px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.form-warn-font{
+    display: none;
+    margin-top: 6px;
+    padding: 0 1px;
+    font-style: normal;
+    line-height: 15px;
+    color: #ff2a2a;
+    box-sizing: content-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
